@@ -1,0 +1,90 @@
+{
+  "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Mature Tree",
+          "status": "Good",
+          "diameter": 10,
+          "species": "Cupressus macnabiana"
+        },
+        "geometry": {
+          "coordinates": [
+            -117.733834,
+            33.882649
+          ],
+          "type": "Point"
+        },
+        "id": "143197111c78cec7565591b813a9c5e3"
+      },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Mature Tree",
+        "status": "Good",
+        "diameter": 9,
+        "species": "Cupressus macnabiana"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.732064,
+          33.880048
+        ],
+        "type": "Point"
+      },
+      "id": "143197111c78cec7565591b813a9c5e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Mature Tree",
+        "status": "Excellentx",
+        "diameter": 8,
+        "species": "Cupressus macnabiana"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.732987,
+          33.877955
+        ],
+        "type": "Point"
+      },
+      "id": "4203a52ccc612344bdfa2bf9857c72b5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Young Tree",
+        "status": "Excellent",
+        "diameter": 4,
+        "species": "Juglans californica"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.735595,
+          33.879944
+        ],
+        "type": "Point"
+      },
+      "id": "b6536f45e02897e6e8aa7d21026f7c32"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Mature Tree",
+        "status": "Excellent",
+        "diameter": 10,
+        "species": "Cupressus macnabiana"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.738083,
+          33.881322
+        ],
+        "type": "Point"
+      },
+      "id": "b9b294accc7a293d44c03609110b5501"
+    }
+  ],
+  "type": "FeatureCollection"
+}
