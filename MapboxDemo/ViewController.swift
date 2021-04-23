@@ -17,23 +17,25 @@ class ViewController: UIViewController {
     }
 
     func addMap() {
-        let url = URL(string: "mapbox://styles/arghh/ckgjyybvy08mv1al92r3chsi8")
-        let location = CLLocationCoordinate2D(latitude: 33.880925, longitude: -117.733831)
+        let url = URL(string: "mapbox://styles/arghh/cknust6o714gr17mw19i8xh9i")
+        let latitude = 61.607314
+        let longitude = -125.733953
+        let location = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         
         // Add a map
         let mapView = MGLMapView(frame: view.bounds, styleURL: url)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.delegate = self
         mapView.showsUserLocation = true
-        mapView.setCenter(location, zoomLevel: 14.0, animated: false)
+        mapView.setCenter(CLLocationCoordinate2D(latitude: latitude, longitude: longitude - 0.005071), zoomLevel: 14.0, animated: false)
         
         view.addSubview(mapView)
         
         // Add point annotation
         let annotation = MGLPointAnnotation()
         annotation.coordinate = location
-        annotation.title = "ArborPro"
-        annotation.subtitle = "Full-spectrum urban forestry services"
+        annotation.title = "R&D HQ"
+        annotation.subtitle = "All things sweet"
         mapView.addAnnotation(annotation)
     }
 
